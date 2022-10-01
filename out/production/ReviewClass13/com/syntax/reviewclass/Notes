@@ -1,0 +1,14 @@
+Class: A class is a blueprint to create an object. An object can not be created without a class.
+
+a. Attributes: We define attributes by using variables
+b. Behaviour: We define behavior by using methods.
+
+Lets take for instance a Phone class. The attributes will include Colour, Size, models. While the behavior that is, what we can do with them will include; MakeCall, Listen to Music, Text, Download etc
+For the phone class, i can create objects and objects can be as many as possible.
+To create objects the key word "new" is used.
+
+
+              THE STRING CLASS
+A String is a class hence, it has its own attributes and behaviours. To define objects for a string, we use methods. The sting class has a of Methods
+Sting is imutable that is it can not be changed
+1.
