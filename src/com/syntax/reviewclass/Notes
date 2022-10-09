@@ -10,10 +10,11 @@ To create objects the key word "new" is used.
 
               THE STRING CLASS
 A String is a class hence, it has its own attributes and behaviours. To define objects for a string, we use methods. The sting class has a of Methods
-Sting is imutable that is it can not be changed
 String is a combination of different characters. It is wrapped in double quotes. It can have spaces, numbers or special characters
 String datatype is written with the uppercase unlike other data types that begin with lower cases
 String is the most widely used class in java. It helps us store and manipulate Text based data.
+Strings are immutable. This means their values can not be changed. Everytime we change their value or perform any kind of operation that may induce change on them,
+a new string is created in the memory where this change is stored
 
               Why we should learn about String class and its methods:
 String class has a lot of methods that can help us manipulate the text based data. That why we don't need to write any logic we can simply create the
