@@ -3,13 +3,13 @@ package com.syntax.reviewclass;
 public class StringMethods6 {
     public static void main(String[] args) {
         /*How would you reverse a string without using reverse function?
-         *1. Use StringBuilder and reverse method
+         *1. StringBuilder and its reverse method can be used to reverse a string however, the requirement state to not use reverse function
          * 2. Use charAt();
          * 3. Use toCharArray();
          *
          */
 
-        //Use charAt();
+        //1. Use charAt(); to get the last chareacter and then go up to the first character
         String str=" hello";
 
         String newString="";
@@ -18,7 +18,7 @@ public class StringMethods6 {
         }
 
         System.out.println("-----------------------------");
-        //Use StringBuilder and reverse method
+        //2. Use StringBuilder and reverse method
 
         StringBuilder sb=new StringBuilder("hello");
         sb.reverse();
