@@ -23,7 +23,9 @@ public class StringMethods1 {
         System.out.println(letter);
 
         //How to get the last character of a string
+        //In methods, whatever is inside the parethesis gets executed by java first
         char lastCharacter=str.charAt(str.length()-1);
+        //Here java first sees "str" which has the value "hello". Then it gets the length which is 5, then it subtracts 1 from it to get the caharacter on the last index 4
         System.out.println(lastCharacter);
 
         //Method: indexOf----> it returns the index within the string of the first occurrence of the specified character
